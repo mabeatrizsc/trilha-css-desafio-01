@@ -102,16 +102,16 @@ p {
     font-weight: 900;
     font-size: 2.5rem;
     text-align:center;
-    text-transform: lowercase;
+    text-transform: lowercase; /* letra maiuscula*/
     max-width: 250px;
-    text-shadow: 3px 2px #7c33db;
+    text-shadow: 3px 2px #7c33db; /* adiciona sombra no texto */
 }
 
 #transform-world {
     height: 560px;
-    background-size: cover;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
     background-image: url("../images/woman-code.png");
-    background-attachment: fixed;
+    background-attachment: fixed; /* Fixar imagem em relação a página */
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
     padding: 200px;
@@ -132,6 +132,6 @@ footer .dio-logo {
 
 footer a {
     color: #33A8DB;
-    font-weight: bold;
+    font-weight: bold; /* O texto será exibido em negrito */
     text-decoration: none;
 }
