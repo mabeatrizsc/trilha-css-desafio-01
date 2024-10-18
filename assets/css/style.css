@@ -99,7 +99,7 @@ p {
 }
 
 #transform-world p {
-    font-weight: 900;
+    font-weight: 900; /* espessura do texto*/
     font-size: 2.5rem;
     text-align:center;
     text-transform: lowercase; /* letra maiuscula*/
